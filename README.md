@@ -12,11 +12,11 @@ Infrastructure Layer: EF Core DbContext, repositories, and Unit of Work
 
 Presentation Layer (optional): For testing via console or API (haven't finished this one though)
 
-Isolation Levels
+**Isolation Levels**
 
 Different isolation levels control how transactions interact.
 For this system, Read Committed is best, as it prevents reading uncommitted data and provides a good balance between consistency and performance.
 
-Summary
+**Summary**
 
 The system ensures reliable, atomic order processing using EF Core transactions and clean, layered architecture.
